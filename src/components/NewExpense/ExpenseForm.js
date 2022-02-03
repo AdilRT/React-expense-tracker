@@ -24,7 +24,6 @@ const ExpenseForm = (props) => {
       amount: +enteredAmount,
       date: new Date(enteredDate),
     };
-    console.log(typeof expenseData.amount);
     // passing value to parent
     props.onSaveExpenseData(expenseData);
 
